@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+
+  p {
+    letter-spacing: 0.3px;
+  }
+}
+
+
+
+h1,
+h2 {
+  font-family: 'Libre Baskerville', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--black);
+
+  * {
+    color: var(--white);
+  }
+}
+
+body ::-moz-selection {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+body ::selection {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+
+.js-animate-element {
+  opacity: 0;
+
+  &.bottom-animation {
+    transform: translateY(150px);
+  }
+
+  &.top-animation {
+    transform: translateY(-150px);
+  }
+
+  &.right-animation {
+    transform: translateX(150px);
+  }
+
+  &.left-animation {
+    transform: translateX(-150px);
+  }
+
+  &.insight {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+    transition: 1s all ease;
+  }
+}
+
+@import "header";
+@import "fonts";
+@import "colors";
+@import "spacers";
+@import "containers";
+@import "banners";
+@import "typography";
+@import "footer";
+@import "iat";
+@import "faq";
+@import "work";
+@import "experience";
+@import "cta";
+@import "responsive";

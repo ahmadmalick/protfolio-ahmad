@@ -1,0 +1,140 @@
+@media only screen and (min-width: 1004px) and (max-width: 1179px) {
+    .right-header {
+
+        gap: 40px;
+
+    }
+
+    a.button,
+    a.button:visited {
+        padding: 15px;
+    }
+
+    .right-header ul {
+        gap: 30px;
+        display: flex;
+    }
+}
+
+
+@media only screen and (max-width: 1003px) {
+    .right-header {
+        nav {
+            display: none;
+        }
+    }
+
+    .header-logo.logo {
+        img {
+            width: 120px;
+        }
+    }
+
+    a.button,
+    a.button:visited {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+
+    // .iat
+    .iat {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    .iat-image {
+        width: 100%;
+        max-height: 410px;
+
+    }
+
+    .iat-content {
+        width: 100%;
+    }
+
+
+    .work-column {
+        width: 100%;
+    }
+
+    .accordion-header {
+        &::before {
+            top: 0;
+        }
+    }
+
+    .cta-inner {
+        padding: 20px;
+    }
+
+    .accordion-content {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 748px) and (max-width: 1003px) {
+
+    .home-image {
+        position: relative;
+        top: -70px;
+    }
+}
+
+@media only screen and (max-width: 747px) {
+
+
+
+
+    .home-image img {
+        max-height: 650px;
+        width: 100%;
+
+        object-fit: contain;
+    }
+
+    .hero-home {
+        flex-wrap: wrap;
+    }
+
+    .hero-home-right {
+        width: 100%;
+    }
+
+    .hero-home-left {
+        width: 100%;
+    }
+
+    .footer-icons {
+		justify-content: center;
+	}
+
+    .experience-columns {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .footer-inner {
+        flex-wrap: wrap;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-left {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .experience-columns {
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+}

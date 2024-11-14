@@ -1,0 +1,30 @@
+.work-text{
+    margin: auto auto 30px auto;
+    max-width: 660px;
+    text-align: center;
+    width: 90%;
+    h2{
+        margin-bottom: 30px;
+    }
+}
+.work-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.work-column {
+    width: calc(50% - 15px);
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.work-img {
+    aspect-ratio: 1 / 0.6;
+
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    transform: scale(1);
+    &:hover{
+        transform: scale(1.1);
+    }
+}

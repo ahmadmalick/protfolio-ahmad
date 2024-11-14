@@ -1,0 +1,16 @@
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 90%;
+}
+.ctn-1050{
+    .wrapper{
+        max-width: 1050px;
+    }
+}
+.black-ctn{
+    background-color: var(--black);
+    *{
+        color: var(--white);
+    }
+}

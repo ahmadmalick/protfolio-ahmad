@@ -1,0 +1,34 @@
+.footer-inner {
+    display: flex;
+    letter-spacing: 0.01em;
+}
+.footer-left {
+    width: 50%;
+    a,a:visited{
+        text-decoration: none;
+        
+        svg{
+            path{
+                transition: all 0.3s ease-in-out;
+
+            }
+        }
+        &:hover{
+            svg{
+                path{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.footer-right {
+    width: 50%;
+    text-align: end;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+.footer-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
