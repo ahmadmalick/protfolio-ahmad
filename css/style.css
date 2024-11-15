@@ -17,6 +17,10 @@ h2 {
   line-height: 1.1;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 body {
   overflow-x: hidden;
   background-color: var(--black);
